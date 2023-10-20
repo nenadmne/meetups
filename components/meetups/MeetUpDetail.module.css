@@ -1,7 +1,22 @@
 .detail {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
 .detail img {
   width: 100%;
+}
+
+.detail h2,
+.detail p,
+.detail img {
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .detail {
+    margin-top: 0;
+  }
 }

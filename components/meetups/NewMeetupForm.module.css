@@ -43,3 +43,9 @@
   background-color: #a50e48;
   border-color: #a50e48;
 }
+
+@media (min-width: 768px) {
+  .list {
+    padding: 0;
+  }
+}
