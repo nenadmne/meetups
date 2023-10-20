@@ -6,8 +6,9 @@
 
 body {
   font-family: "Open Sans", "Lato", sans-serif;
-  margin: 0 !important;
-  width: 375px;
+  margin: 0;
+  width: 100%;
+  min-width: 375px;
 }
 
 h1,
